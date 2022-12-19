@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DSmith09/CSC-Laundry-IDs.git"
+    "url": "git+https://github.com/DSmith09/CSC-CVA-Scrapper.git"
   },
   "author": "David Smith",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DSmith09/CSC-Laundry-IDs/issues"
+    "url": "https://github.com/DSmith09/CSC-CVA-Scrapper/issues"
   },
-  "homepage": "https://github.com/DSmith09/CSC-Laundry-IDs#readme",
+  "homepage": "https://github.com/DSmith09/CSC-CVA-Scrapper#readme",
   "dependencies": {
     "csv-writer": "^1.6.0",
     "cypress": "^12.1.0",
