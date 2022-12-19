@@ -1,0 +1,25 @@
+{
+  "name": "csc-cva-id-scrapper",
+  "version": "1.0.0",
+  "description": "cva id scrapper for csc laundry machines",
+  "main": "index.js",
+  "scripts": {
+    "csc-service-works": "./csc-service-works.sh",
+    "parse:csc-service-works": "node ./src/parse-csc-logs.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSmith09/CSC-Laundry-IDs.git"
+  },
+  "author": "David Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSmith09/CSC-Laundry-IDs/issues"
+  },
+  "homepage": "https://github.com/DSmith09/CSC-Laundry-IDs#readme",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "cypress": "^12.1.0",
+    "n-readlines": "^1.0.1"
+  }
+}

@@ -1,3 +1,7 @@
+# Custom Mac Data/Output
+*.DS_Store
+./output
+
 # Logs
 logs
 *.log
