@@ -20,7 +20,7 @@ let records = [];
 while (line = lineReader.next()) {
     line = line.toString();
     if (line.includes('[Found]')) {
-        records.push(line.split('"')[1].split('[Found] ')[1].split(','));
+        records.push(line.split('[Found] ')[1].split(','));
     }
 }
 

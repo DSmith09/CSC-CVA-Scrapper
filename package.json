@@ -19,7 +19,7 @@
   "homepage": "https://github.com/DSmith09/CSC-CVA-Scrapper#readme",
   "dependencies": {
     "csv-writer": "^1.6.0",
-    "cypress": "^12.1.0",
+    "cypress": "^9.5.3",
     "n-readlines": "^1.0.1"
   }
 }
