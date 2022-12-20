@@ -7,7 +7,7 @@ END=$((START + NUMBER_OF_IDS_TO_SCRAPE))
 
 LOG_PATH="./output/csc_cva_ids_${START}_to_${END}.log"
 
-while [ $START -le $END ];
+while [ $START -lt $END ];
 do
     ELECTRON_ENABLE_LOGGING=1 npx cypress run \
         --spec 'cypress/integration/csc.service.works.spec.js' \
